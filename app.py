@@ -26,6 +26,7 @@ def generateRandomId():
 # a fun that creates a table is there isnt one
 @app.route('/CreatTable', methods=['GET'])
 def CreatTable():
+    print("got req!!!!!!!!!!!! am here")
     userT=Users()
     # Num, AccountName, Password, Email, PhoneNumber,Id
     return "Created Table"
